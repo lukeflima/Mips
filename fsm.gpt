@@ -1,0 +1,5 @@
+cc  -o fsm fsm.c -I/usr/lib/alliance/include  -L/usr/lib/alliance/lib -lPgn -lPpt -lPhl -lPat -lMut -lRcn
+fsm.c:8:89: warning: useless storage class specifier in empty declaration [enabled by default]
+fsm.c: In function ‘main’:
+fsm.c:327:3: warning: passing argument 4 of ‘MaquinaDeEstados’ makes integer from pointer without a cast [enabled by default]
+fsm.c:67:5: note: expected ‘int’ but argument is of type ‘char *’

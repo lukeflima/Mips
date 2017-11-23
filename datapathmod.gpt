@@ -1,0 +1,4 @@
+cc  -o datapathmod datapathmod.c -I/usr/lib/alliance/include  -L/usr/lib/alliance/lib -lPgn -lPpt -lPhl -lPat -lMut -lRcn
+datapathmod.c:5:17: fatal error: FSM.h: Arquivo ou diretório não encontrado
+compilation terminated.
+make: ** [datapathmod] Erro 1
